@@ -16,5 +16,7 @@
 ## 2.1 显卡驱动和CUDA
 参考:
 [ubuntu 16.04 + GTX 1080 DeepLearning工作站搭建 ](http://blog.csdn.net/Loser__Wang/article/details/52457830?locationNum=12)
+[深度学习主机环境配置: Ubuntu16.04+Nvidia GTX 1080+CUDA8.0](http://www.52nlp.cn/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E4%B8%BB%E6%9C%BA%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE-ubuntu-16-04-nvidia-gtx-1080-cuda-8)
 1. 下载GTX 1080最新驱动，
 2. 下载CUDA 8.0
+3. 
