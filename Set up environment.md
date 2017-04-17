@@ -13,3 +13,8 @@
 1. Google Chrome浏览器
 2. XX-Net
 # 2 步骤
+## 2.1 显卡驱动和CUDA
+参考:
+[ubuntu 16.04 + GTX 1080 DeepLearning工作站搭建 ](http://blog.csdn.net/Loser__Wang/article/details/52457830?locationNum=12)
+1. 下载GTX 1080最新驱动，
+2. 下载CUDA 8.0
