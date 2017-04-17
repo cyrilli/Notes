@@ -55,8 +55,14 @@
 
 1. 下载[cuDNN](https://developer.nvidia.com/rdp/cudnn-download)
 2. 安装cuDNN比较简单，解压后把相应的文件拷贝到对应的CUDA目录下即可：
+
 >tar -zxvf cudnn-8.0-linux-x64-v5.1.tgz
+
 >sudo cp cuda/include/cudnn.h /usr/local/cuda-8.0/include/
+
 >sudo cp cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
+
 >sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h
+
 >sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
+
