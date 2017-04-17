@@ -11,7 +11,7 @@
 7. Jupyter
 ## 1.2 其他
 1. [Google Chrome浏览器](http://www.cnblogs.com/Michelle-Yang/p/6660331.html)
-2. XX-Net
+2. [XX-Net](https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3)
 # 2 步骤
 ## 2.1 显卡驱动和CUDA
 参考:
