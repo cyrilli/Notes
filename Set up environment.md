@@ -66,3 +66,22 @@
 
 >sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
 
+## 2.3 安装Anaconda
+1. 在Anaconda官网下载并安装
+>bash Anaconda3-4.3.1-Linux-x86_64.sh 
+2. 添加[清华大学镜像](https://mirror.tuna.tsinghua.edu.cn/help/anaconda/)
+>conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+
+>conda config --set show_channel_urls yes
+
+## 2.4安装Tensorflow
+参考：
+[Tensorflow Install](https://www.tensorflow.org/install/install_linux)
+1. 创建一个子环境，命名为dl
+>conda create -n dl python=3.6
+2. 激活环境dl
+>source activate dl
+3. 安装libcupti-dev library
+>sudo apt-get install libcupti-dev
+3. 使用pip安装tensorflow
+>pip3 install tensorflow-gpu
