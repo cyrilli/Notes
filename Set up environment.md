@@ -78,10 +78,20 @@
 参考：
 [Tensorflow Install](https://www.tensorflow.org/install/install_linux)
 1. 创建一个子环境，命名为dl
->conda create -n dl python=3.6
+>conda create -n dl python=3.5  # 安装3.6出现了错误
 2. 激活环境dl
 >source activate dl
 3. 安装libcupti-dev library
 >sudo apt-get install libcupti-dev
 3. 使用pip安装tensorflow
 >pip3 install tensorflow-gpu
+
+## 2.5 安装Tensorlayer
+参考：
+[Tensorlayer Install](http://tensorlayer.readthedocs.io/en/latest/user/installation.html#step-3-tensorlayer)
+1. 这里使用源码安装，首先在Github clone下来Tensorlayer源码
+>git clone https://github.com/zsdonghao/tensorlayer.git
+
+>pip install -e .
+# 报错：
+1. [Intel MKL FATAL ERROR: Cannot load libmkl_avx2.so or libmkl_def.so](http://stackoverflow.com/questions/36659453/intel-mkl-fatal-error-cannot-load-libmkl-avx2-so-or-libmkl-def-so)
