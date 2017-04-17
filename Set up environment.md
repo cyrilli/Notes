@@ -49,3 +49,14 @@
 15. sudo ldconfig //环境变量立即生效
 
 16. 通过nvcc -V测试cuda是否安装成功
+## 2.2 安装cuDNN
+参考：
+[深度学习主机环境配置: Ubuntu16.04+GeForce GTX 1080+TensorFlow](http://www.52nlp.cn/%e6%b7%b1%e5%ba%a6%e5%ad%a6%e4%b9%a0%e4%b8%bb%e6%9c%ba%e7%8e%af%e5%a2%83%e9%85%8d%e7%bd%ae-ubuntu16-04-geforce-gtx1080-tensorflow)
+
+1. 下载[cuDNN](https://developer.nvidia.com/rdp/cudnn-download)
+2. 安装cuDNN比较简单，解压后把相应的文件拷贝到对应的CUDA目录下即可：
+>tar -zxvf cudnn-8.0-linux-x64-v5.1.tgz
+>sudo cp cuda/include/cudnn.h /usr/local/cuda-8.0/include/
+>sudo cp cuda/lib64/libcudnn* /usr/local/cuda-8.0/lib64/
+>sudo chmod a+r /usr/local/cuda-8.0/include/cudnn.h
+>sudo chmod a+r /usr/local/cuda-8.0/lib64/libcudnn*
